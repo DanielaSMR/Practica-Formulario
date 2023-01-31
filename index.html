@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario1</h2>
+<h3>Accede a tu Area Clientes</h3>
+<section>
+    <form action="web.php" method="post">
+<p>
+    Elige tu documento
+</p>
+<p>
+    <input type="radio" name="Documento" value="DNI">DNI
+    <input type="radio" name="Documento" value="Pasaporte">Pasaporte
+</p>
+
+<p>
+    Numero de documento
+    <input type="text" name="DNI" value="numeroDNI" placeholder="DNI o Tarjeta de residencia">
+</p>
+<p>
+    Fecha de nacimiento
+    <input type="date" name="Fecha" value="Fecha">
+</p>
+<p>
+    Recordar
+    <input type="checkbox" name="check">
+</p>
+
+<p>
+    <input type="submit" value="Entrar">
+</p>
+
+</form>
+
+</section>
+
+<h3>Formulario 2</h3>
+<section>
+    <form>
+<h3>Empieza creando tu usuario</h3>
+<p>
+<input type="text" name="Nombre" placeholder="Nombre">
+</p>
+<p>
+<input type="text" name="Apellido" placeholder="Apellido">
+<input type="text" name="Apellido2" placeholder="Apellido2">
+</p>
+<p>
+    Tipo de documento
+    <select name="Documento" id="documento">
+        <option value="1">DNI</option>
+        <option value="2" selected>NIF</option>
+        <option value="3">CERT</option>
+    </select>
+</p>
+
+
+
+
+
+
+    </form>
+</section>
+
+</body>
+</html>
